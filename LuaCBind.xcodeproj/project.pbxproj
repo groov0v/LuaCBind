@@ -28,6 +28,9 @@
 		7E02F077169C5B7300C23EE6 /* LuaCBind */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LuaCBind; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E02F07B169C5B7300C23EE6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		7E02F07D169C5B7300C23EE6 /* LuaCBind.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LuaCBind.1; sourceTree = "<group>"; };
+		7E1B0D2C16AAC5CF00F35F78 /* bind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bind.h; sourceTree = "<group>"; };
+		7E1B0D2D16AAC5CF00F35F78 /* impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = impl.h; sourceTree = "<group>"; };
+		7E1B0D2E16AAC5CF00F35F78 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,9 @@
 		7E02F07A169C5B7300C23EE6 /* LuaCBind */ = {
 			isa = PBXGroup;
 			children = (
+				7E1B0D2C16AAC5CF00F35F78 /* bind.h */,
+				7E1B0D2D16AAC5CF00F35F78 /* impl.h */,
+				7E1B0D2E16AAC5CF00F35F78 /* util.h */,
 				7E02F07B169C5B7300C23EE6 /* main.cpp */,
 				7E02F07D169C5B7300C23EE6 /* LuaCBind.1 */,
 			);
