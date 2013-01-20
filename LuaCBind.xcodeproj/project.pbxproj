@@ -31,6 +31,7 @@
 		7E1B0D2C16AAC5CF00F35F78 /* bind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bind.h; sourceTree = "<group>"; };
 		7E1B0D2D16AAC5CF00F35F78 /* impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = impl.h; sourceTree = "<group>"; };
 		7E1B0D2E16AAC5CF00F35F78 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		7E47981516ABFB8F0018B382 /* parser.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = parser.lua; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.lua; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 		7E02F07A169C5B7300C23EE6 /* LuaCBind */ = {
 			isa = PBXGroup;
 			children = (
+				7E47981516ABFB8F0018B382 /* parser.lua */,
 				7E1B0D2C16AAC5CF00F35F78 /* bind.h */,
 				7E1B0D2D16AAC5CF00F35F78 /* impl.h */,
 				7E1B0D2E16AAC5CF00F35F78 /* util.h */,
